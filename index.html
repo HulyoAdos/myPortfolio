@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Personal Bootstrap Template</title>
+  <title>Personal Portfolio</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,33 +44,17 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Personal</h1>
+        <h1 class="sitename">Personal Portfolio</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#stats">Skills</a></li>
+          <li><a href="#interests">Awards</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#services">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -108,7 +92,7 @@
                       <img src="assets/img/profile-img.png" class="img-fluid" alt="">
                   </div>
                   <div class="col-lg-8 content">
-                      <h2>Software and Web Developer.</h2>
+                      <h2 class="pt-5">Software and Web Developer.</h2>
                       <p class="fst-italic py-3">
                           As a dedicated Software and Web Developer with a Bachelor’s degree and a passion for crafting innovative digital solutions, I specialize in creating dynamic, user-friendly websites and software applications. I am always eager to leverage my technical expertise to deliver impactful projects.
                       </p>
@@ -135,54 +119,55 @@
               </div>
 
           </div>
+          <!-- Stats Section -->
+          <section id="" class="stats section" style="background: #0c0c0c;">
 
-      </section><!-- /About Section -->
-      <!-- Stats Section -->
-      <section id="stats" class="stats section" style="background: #0c0c0c;">
+              <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
+                  <div class="row gy-4">
 
-              <div class="row gy-4">
+                      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                          <i class="bi bi-emoji-smile"></i>
+                          <div class="stats-item">
+                              <div style="display: flex;justify-content: center;"><span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span><span>+</span></div>
+                              <p>Program Users</p>
+                          </div>
+                      </div><!-- End Stats Item -->
 
-                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                      <i class="bi bi-emoji-smile"></i>
-                      <div class="stats-item">
-                          <div style="display: flex;justify-content: center;"><span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span><span>+</span></div>
-                          <p>Program Users</p>
-                      </div>
-                  </div><!-- End Stats Item -->
+                      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                          <i class="bi bi-journal-richtext"></i>
+                          <div class="stats-item">
+                              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                              <p>Projects</p>
+                          </div>
+                      </div><!-- End Stats Item -->
 
-                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                      <i class="bi bi-journal-richtext"></i>
-                      <div class="stats-item">
-                          <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-                          <p>Projects</p>
-                      </div>
-                  </div><!-- End Stats Item -->
+                      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                          <i class="bi bi-headset"></i>
+                          <div class="stats-item">
+                              <span data-purecounter-start="0" data-purecounter-end="35064" data-purecounter-duration="1" class="purecounter"></span>
+                              <p>Hours Of Support</p>
+                          </div>
+                      </div><!-- End Stats Item -->
 
-                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                      <i class="bi bi-headset"></i>
-                      <div class="stats-item">
-                          <span data-purecounter-start="0" data-purecounter-end="35064" data-purecounter-duration="1" class="purecounter"></span>
-                          <p>Hours Of Support</p>
-                      </div>
-                  </div><!-- End Stats Item -->
+                      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                          <i class="bi bi-people"></i>
+                          <div class="stats-item">
+                              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+                              <p>Clients</p>
+                          </div>
+                      </div><!-- End Stats Item -->
 
-                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                      <i class="bi bi-people"></i>
-                      <div class="stats-item">
-                          <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
-                          <p>Clients</p>
-                      </div>
-                  </div><!-- End Stats Item -->
+                  </div>
 
               </div>
 
-          </div>
+          </section><!-- /Stats Section -->
 
-      </section><!-- /Stats Section -->
+      </section><!-- /About Section -->
+      
       <!-- Skills Section -->
-      <section id="skills" class="skills section">
+      <section id="stats" class="skills section">
 
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
@@ -358,6 +343,99 @@
 
           </div>
 
+          <div class="container section-title mt-5 pt-3" data-aos="fade-up">
+              <h2>Certifications</h2>
+              <!--<div><span>I'm</span> <span class="description-title">interested in</span></div>-->
+          </div><!-- End Section Title -->
+          <div class="container">
+
+              <div class="row gy-4">
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c;"></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">Nat. Comp. Servicing II</a></h3>
+                              <span>TESDA</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c;"></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">Typescript</a></h3>
+                              <span>Coursera</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c;"></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">IBM GIT and GITHUB</h3></a>
+                              <span>Coursera</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c; "></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">Advance React</a></h3>
+                              <span>Coursera</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c;"></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">Intro to Front-End Dev</a></h3>
+                              <span>Coursera</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c;"></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">JavaScript, jQuery, and JSON</a></h3>
+                              <span>Coursera</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c;"></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">Backend Dev ASP.Net</a></h3>
+                              <span>Coursers</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+                  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
+                      <div class="features-item">
+                          <i class="bi bi-award" style="color: #ffbb2c;"></i>
+                          <div>
+                              <h3><a href="" class="stretched-link">Python Crash Course</a></h3>
+                              <span>Coursers</span>
+                          </div>
+                      </div>
+                  </div><!-- End Feature Item -->
+
+
+              </div>
+
+          </div>
+
       </section><!-- /Interests Section -->
       <!-- Testimonials Section -->
       <section id="resume" class="resume section">
@@ -462,7 +540,7 @@
                   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                       <div class="service-item  position-relative">
                           <div class="icon">
-                              <i class="bi bi-activity"></i>
+                              <i class="bi bi-ticket-detailed"></i>
                           </div>
                           <a href="service-details.html" class="stretched-link">
                               <h3>Online Job Order System</h3>
@@ -474,7 +552,7 @@
                   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                       <div class="service-item position-relative">
                           <div class="icon">
-                              <i class="bi bi-broadcast"></i>
+                              <i class="bi bi-person-vcard"></i>
                           </div>
                           <a href="service-details.html" class="stretched-link">
                               <h3>Skills Hub</h3>
@@ -486,7 +564,7 @@
                   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                       <div class="service-item position-relative">
                           <div class="icon">
-                              <i class="bi bi-easel"></i>
+                              <i class="bi bi-database-down"></i>
                           </div>
                           <a href="service-details.html" class="stretched-link">
                               <h3>Data Bank</h3>
@@ -511,7 +589,7 @@
                   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                       <div class="service-item position-relative">
                           <div class="icon">
-                              <i class="bi bi-calendar4-week"></i>
+                              <i class="bi bi-columns-gap"></i>
                           </div>
                           <a href="service-details.html" class="stretched-link">
                               <h3>Manufacturing Utilities</h3>
@@ -524,7 +602,7 @@
                   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                       <div class="service-item position-relative">
                           <div class="icon">
-                              <i class="bi bi-chat-square-text"></i>
+                              <i class="bi bi-list-check"></i>
                           </div>
                           <a href="service-details.html" class="stretched-link">
                               <h3>Sequential System</h3>
@@ -588,6 +666,28 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+    document.addEventListener("scroll", () => {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("#navmenu ul li a");
+        const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+        sections.forEach((section) => {
+            if (
+                scrollPosition >= section.offsetTop &&
+                scrollPosition < section.offsetTop + section.offsetHeight
+            ) {
+                const id = section.getAttribute("id");
+                navLinks.forEach((link) => {
+                    link.classList.remove("active");
+                    if (link.getAttribute("href") === `#${id}`) {
+                        link.classList.add("active");
+                    }
+                });
+            }
+        });
+    });
+</script>
 
 </body>
 
